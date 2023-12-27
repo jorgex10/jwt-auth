@@ -6,7 +6,7 @@ ruby '3.0.0'
 gem 'bootsnap', require: false
 gem 'devise', '~> 4.9', '>= 4.9.3'
 gem 'devise-jwt', '~> 0.11.0'
-gem 'jsonapi_serializer', '~> 0.1.1'
+gem 'jsonapi-serializer', '~> 2.2'
 gem 'multi_json', '~> 1.15'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'

@@ -4,6 +4,9 @@ Style/Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Metrics/MethodLength:
+  Enabled: false
+
 AllCops:
   Exclude:
     - "db/schema.rb"
