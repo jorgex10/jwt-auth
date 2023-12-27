@@ -3,3 +3,7 @@ Style/Documentation:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+AllCops:
+  Exclude:
+    - "db/schema.rb"
