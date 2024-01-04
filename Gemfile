@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.0'
+ruby '3.2.2'
 
 gem 'bootsnap', require: false
 gem 'devise', '~> 4.9', '>= 4.9.3'
@@ -18,6 +18,11 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'factory_bot_rails', '~> 6.4', '>= 6.4.3'
+  gem 'faker', '~> 3.2', '>= 3.2.2'
+  gem 'rspec_jsonapi_serializer', '~> 1.3', '>= 1.3.2'
+  gem 'rspec-rails', '~> 6.1'
+  gem 'shoulda-matchers', '~> 6.0'
 end
 
 group :development do
